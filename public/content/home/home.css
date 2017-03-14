@@ -1,0 +1,46 @@
+
+h1{
+    text-align: center;
+    color: blue;
+    opacity: 0.4;
+}
+
+.container{
+    margin: 50px;
+}
+
+main{
+    margin: 40px;
+
+}
+body{
+    background-color: bisque;
+}
+
+
+a{
+    font-size: 30px;
+    text-align: center;
+}
+
+footer{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px !important;
+    position: relative !important ;
+}
+
+img{
+    max-width: 50%;
+
+}
+#name{
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}

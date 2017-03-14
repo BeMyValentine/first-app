@@ -1,0 +1,10 @@
+angular.module("firstApp")
+    .service("mainService", ["$http", function ($http) {
+
+
+
+        this.showRecipe = function () {
+            return $http.get("/recipe/random")
+        };
+
+    }]);

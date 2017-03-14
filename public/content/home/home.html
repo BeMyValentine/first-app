@@ -1,0 +1,36 @@
+<main class="container">
+
+    <h1>{{ welcome }}</h1>
+
+    <center>
+        <form action="">
+            <button class="btn-lg btn-success" ng-click="randomRecipe()">Random Recipe</button>
+        </form>
+
+
+        <div>
+            <div class="row">
+                <div>
+                    <div class="col-xs-12" id="name">
+                        {{ dinner }}
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img src="{{ image }}" alt="">
+                    </div>
+                    <div>
+                        <a href="{{ recipe }}">{{ recipe }}</a>
+                    </div>
+                </div>
+                <button class="btn btn-md btn-info" ng-click="saveRecipe()">Save to Favorites</button>
+
+
+            </div>
+
+        </div>
+    </center>
+
+</main>

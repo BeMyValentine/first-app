@@ -1,0 +1,12 @@
+angular.module("firstApp")
+.service("userService", ["$http", function ($http) {
+
+    this.newUser = function (person) {
+        console.log(person);
+        return $http.post("/user", person);
+
+
+    }
+
+
+}]);
